@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-using HDATextTool.IO;
+using HDATool.IO;
 
 namespace HDATextTool
 {
@@ -10,8 +10,8 @@ namespace HDATextTool
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("HDATextTool by gdkchan");
-            Console.WriteLine("Version 0.3.1");
+            Console.WriteLine("HDATool By IARevrersz09");
+            Console.WriteLine("Version 1.5.0");
             Console.ResetColor();
             Console.Write(Environment.NewLine);
 
