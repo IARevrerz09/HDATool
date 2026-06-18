@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HDATextTool.Properties {
+namespace HDATool.Properties {
     using System;
     
     
