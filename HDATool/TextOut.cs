@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HDATextTool
+namespace HDATool
 {
     class TextOut
     {
