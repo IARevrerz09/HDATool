@@ -3,7 +3,7 @@ using System.IO;
 
 using HDATool.IO;
 
-namespace HDATextTool
+namespace HDATool
 {
     class Program
     {
