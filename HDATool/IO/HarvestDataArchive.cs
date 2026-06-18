@@ -1,9 +1,9 @@
 using System;
 using System.IO;
 using System.Linq;
-using HDATextTool.IO.Compression;
+using HDATool.IO.Compression;
 
-namespace HDATextTool.IO
+namespace HDATool.IO
 {
     /// <summary>
     /// Menangani baca/tulis arsip .HDA milik Harvest Moon: Save the Homeland (PS2).
