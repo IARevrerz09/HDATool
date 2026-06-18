@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace HDATextTool.IO
+namespace HDATool.IO
 {
     /// <summary>
     ///     Handles the LBA table recalculation on the ELF from Harvest Moon.
