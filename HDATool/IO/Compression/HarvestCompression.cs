@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace HDATextTool.IO.Compression
+namespace HDATool.IO.Compression
 {
     /// <summary>
     ///     Handles the compression format used on the game Harvest Moon: Save the Homeland.
