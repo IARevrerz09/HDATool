@@ -3,9 +3,9 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 
-using HDATextTool.Properties;
+using HDATool.Properties;
 
-namespace HDATextTool.IO
+namespace HDATool.IO
 {
     class HarvestText
     {
