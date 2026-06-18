@@ -7,8 +7,8 @@
     <ProjectGuid>{5AF16F8E-2C05-4F95-AB64-0378ACA59D0D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HDATextTool</RootNamespace>
-    <AssemblyName>HDATextTool</AssemblyName>
+    <RootNamespace>HDATool</RootNamespace>
+    <AssemblyName>HDATool</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
