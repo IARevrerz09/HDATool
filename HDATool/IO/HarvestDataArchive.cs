@@ -145,7 +145,7 @@ namespace HDATool.IO
                         continue;
                     }
 
-                    if (entryAbsPos + EntryHeaderSize + compressedLength > (ulong)data.Length)
+                    if (entryAbsPos + EntryHeaderSize + (long)compressedLength > data.Length)
                     {
                         Console.Error.WriteLine(
                             $"[HDA] Entry #{index}: data melewati batas file, dilewati.");
@@ -219,8 +219,7 @@ namespace HDATool.IO
             if (inputFolder == null)  throw new ArgumentNullException(nameof(inputFolder));
 
             // Urutkan berdasarkan nama agar urutan index konsisten di semua OS
-            string[] files = Directory.GetFiles(inputFolder)
-                                      .OrderBy(f => f, StringComparer.OrdinalIgnoreCase)
+            string[] files = Directory.GetFiles(inputFolder)\n                                      .OrderBy(f => f, StringComparer.OrdinalIgnoreCase)
                                       .ToArray();
 
             if (files.Length == 0)
